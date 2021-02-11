@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{9427A856-D436-43F0-B20B-209002C8D107}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/InMemory/InMemoryProductDal.cs">
+    <Files>
+      <File FileName="Core/Utilities/Results/DataResult.cs" Line="6" Column="86" />
+      <File FileName="Core/Utilities/Results/IDataResult.cs" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="76" Column="126" />
+      <File FileName="Business/Abstract/IProductService.cs" Line="28" Column="1" />
+      <File FileName="Core/Utilities/Results/Result.cs" Line="7" Column="7" />
+      <File FileName="Core/Utilities/Results/IResult.cs" />
+      <File FileName="Core/Utilities/Results/SuccessResult.cs" Line="6" Column="54" />
+      <File FileName="Core/Utilities/Results/ErrorResult.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilities/Results/SuccessDataResult.cs" Line="8" Column="1" />
+      <File FileName="Core/Utilities/Results/ErrorDataResult.cs" Line="12" Column="10" />
+      <File FileName="Business/Constants/Messages.cs" Line="21" Column="49" />
+      <File FileName="ConsoleUI/Program.cs" Line="72" Column="14" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="31" Column="1" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryProductDal.cs" Line="58" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyFinalProject" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+              <Node name="Constants" expanded="True" />
+            </Node>
+            <Node name="ConsoleUI" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="Utilities" expanded="True">
+                <Node name="Results" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+                <Node name="InMemory" expanded="True">
+                  <Node name="InMemoryProductDal.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
