@@ -67,3 +67,6 @@
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Core.dll
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Core.pdb
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Autofac.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Autofac.Extras.DynamicProxy.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Castle.Core.dll

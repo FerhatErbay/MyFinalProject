@@ -9,14 +9,13 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            // IoC will be  leant
+            // IoC to be  learned
 
-            //InMemoryTest();
+            // InMemoryTest();
             // ProductTest();
-            //CategoryTest();
-            //ProductDetailDtoTest();
-
-            ProductGetAllTest();
+            // CategoryTest();
+            // ProductDetailDtoTest();
+            // ProductGetAllTest();
 
 
         }
@@ -41,8 +40,8 @@ namespace ConsoleUI
                 Console.WriteLine(result.Message);
             }
 
-            
         }
+
 
         private static void ProductGetAllTest()
         {
@@ -67,8 +66,6 @@ namespace ConsoleUI
                 Console.WriteLine(result.Message);
                 Console.WriteLine("-***********-");
             }
-
-
         }
 
         private static void CategoryTest()
@@ -101,7 +98,6 @@ namespace ConsoleUI
             {
                 Console.WriteLine(result.Message);
             }
-
             
         }
 
