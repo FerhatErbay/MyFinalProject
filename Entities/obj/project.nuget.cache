@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "V2LtutBzPEpR/gQFjlj8fTiqAQXYvDA/776sf84KahMkX8j/y9YRORe0f2FTXF2X9UA4HpyOjBpG8KdD+5acHA==",
+  "dgSpecHash": "SdWYw/GtN+Eam6qCqWCjMCUj517d2MwhGI8sfbNCusqx4okq1Oh+DFFg5HeoDO48Ndm7reE2ShF0nJq55udzZg==",
   "success": true,
   "projectFilePath": "/Users/amorfati/Projects/MyFinalProject/Entities/Entities.csproj",
   "expectedPackageFiles": [
+    "/Users/amorfati/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -65,6 +70,7 @@
     "/Users/amorfati/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.diagnostics.process/4.3.0/system.diagnostics.process.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/system.diagnostics.tracesource/4.3.0/system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.dynamic.runtime/4.3.0/system.dynamic.runtime.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",

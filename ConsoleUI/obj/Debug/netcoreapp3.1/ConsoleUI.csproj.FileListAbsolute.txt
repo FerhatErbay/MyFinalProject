@@ -70,3 +70,4 @@
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Autofac.dll
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Autofac.Extras.DynamicProxy.dll
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Castle.Core.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/FluentValidation.dll

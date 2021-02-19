@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t3sYqv24xw58f7sqUrxcnNQzp/yadDWFARjyE559/8MONLAI14IYlTjkA3cWwTwC7LkBjMDS5dW571OKmjNf1w==",
+  "dgSpecHash": "FkG9bC3Ex8a9qfN0Rm4fVizfyvV0u4tTxlsHVfRsrBypqHDr7Azz2hqiTzkMnAmBU7y/QnzRHnraUEjj48Izaw==",
   "success": true,
   "projectFilePath": "/Users/amorfati/Projects/MyFinalProject/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/amorfati/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.0/microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

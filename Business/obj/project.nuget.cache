@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1bUPJcT/hrj/j14PZDuie6Yc7fE7vDBWERortLPNnWEEzsleFOutE2gdR25junTzvtT3PVNQZDQXGqp1Lq4ayQ==",
+  "dgSpecHash": "gZnarncRKmUorj6JhL/ix3S2JmbtVMkCEEGHIi0E663VE2v2a8uT275RGTPRx1wvCGRMTnTxqWiOQc3HYwHH3Q==",
   "success": true,
   "projectFilePath": "/Users/amorfati/Projects/MyFinalProject/Business/Business.csproj",
   "expectedPackageFiles": [
     "/Users/amorfati/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

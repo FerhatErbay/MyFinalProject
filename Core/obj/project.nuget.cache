@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/sYimIAXShCevGHW/Giw6orx1Qu128YntnoKsmqYTOqqXw919+2a7+qTG9H77UMb1LjXp0ngHePeBwJOaQv+MQ==",
+  "dgSpecHash": "op9PtA8haFu0b3WdVvg61HSvJnDeMN7EvNEcyPkBqmzUBqJaILWwbIY4roOR62MDHIIdTQUaK8Banu3q9Rk/iA==",
   "success": true,
   "projectFilePath": "/Users/amorfati/Projects/MyFinalProject/Core/Core.csproj",
   "expectedPackageFiles": [
+    "/Users/amorfati/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -65,6 +70,7 @@
     "/Users/amorfati/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.diagnostics.process/4.3.0/system.diagnostics.process.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "/Users/amorfati/.nuget/packages/system.diagnostics.tracesource/4.3.0/system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.dynamic.runtime/4.3.0/system.dynamic.runtime.4.3.0.nupkg.sha512",
     "/Users/amorfati/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
