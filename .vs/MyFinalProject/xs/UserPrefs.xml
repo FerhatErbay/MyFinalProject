@@ -1,37 +1,23 @@
 ﻿<Properties StartupConfiguration="{26C2A73C-20C7-465E-B526-145B8B3B8236}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Aspects/Autofac/Validation/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">
     <Files>
-      <File FileName="WebAPI/Startup.cs" Line="37" Column="66" />
-      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="20" Column="10" />
-      <File FileName="WebAPI/Program.cs" Line="27" Column="14" />
-      <File FileName="WebAPI/Controllers/ProductsController.cs" Line="61" Column="32" />
-      <File FileName="Business/ValidationRules/FluentValidation/ProductValidator.cs" Line="15" Column="91" />
-      <File FileName="Business/Concrete/ProductManager.cs" Line="29" Column="51" />
-      <File FileName="Core/CrossCuttingConcerns/Validation/ValidationTool.cs" Line="16" Column="1" />
-      <File FileName="Core/Utilities/Interceptors/EmptyClass.cs" Line="10" Column="43" />
-      <File FileName="Core/Aspects/Autofac/Validation/EmptyClass.cs" Line="26" Column="6" />
+      <File FileName="WebAPI/Startup.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Program.cs" Line="34" Column="6" />
+      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyFinalProject" expanded="True">
-            <Node name="Business" expanded="True" />
-            <Node name="Core" expanded="True">
-              <Node name="Aspects" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="DependencyResolvers" expanded="True">
                 <Node name="Autofac" expanded="True">
-                  <Node name="Validation" expanded="True">
-                    <Node name="EmptyClass.cs" selected="True" />
-                  </Node>
+                  <Node name="AutofacBusinessModule.cs" selected="True" />
                 </Node>
               </Node>
-              <Node name="Utilities" expanded="True">
-                <Node name="Interceptors" expanded="True" />
-              </Node>
             </Node>
-            <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="WebAPI" expanded="True" />
           </Node>
         </State>
       </Pad>
