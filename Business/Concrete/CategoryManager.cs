@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Business.Abstract;
+using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -15,14 +19,44 @@ namespace Business.Concrete
             _categoryDal = categoryDal;
         }
 
-        public List<Category> GetAll()
+        // AOP...
+        [ValidationAspect(typeof(CategoryValidator))]
+        public IResult Add(Category category)
         {
-            return _categoryDal.GetAll();
+            _categoryDal.Add(category);
+
+            return new SuccessResult(Messages.CategoryAdded); 
         }
 
-        public Category GetById(int categoryId)
+        public IResult Delete(Category category)
         {
-            return _categoryDal.GetById(c => c.CategoryID == categoryId);
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<List<Category>> GetAll()
+        {
+            if (DateTime.Now.Hour == 02)
+            {
+                return new ErrorDataResult<List<Category>>(Messages.MaintenanceTime);
+            }
+
+            return new SuccessDataResult<List<Category>>(_categoryDal.GetAll(), Messages.CategoryListed);
+        }
+
+       
+
+        public IDataResult<Category> GetById(int categoryId)
+        {
+            return new SuccessDataResult<Category>(_categoryDal.GetById(c => c.CategoryID == categoryId),Messages.CategoryFound);
+        }
+
+
+        public IResult Update(Category  category)
+        {
+            _categoryDal.Update(category);
+
+
+            return new SuccessResult(Messages.CategoryUpdated);
         }
     }
 }

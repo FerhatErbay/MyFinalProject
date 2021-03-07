@@ -71,3 +71,12 @@
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Autofac.Extras.DynamicProxy.dll
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Castle.Core.dll
 /Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Autofac.Extensions.DependencyInjection.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Abstractions.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.WebUtilities.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.ObjectPool.dll
+/Users/amorfati/Projects/MyFinalProject/ConsoleUI/bin/Debug/netcoreapp3.1/Microsoft.Net.Http.Headers.dll

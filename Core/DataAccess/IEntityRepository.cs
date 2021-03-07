@@ -9,6 +9,7 @@ namespace Core.DataAccess
 
     public interface IEntityRepository<TEntity> where TEntity:class,IEntity,new()
     {
+        TEntity Get(Expression<Func<TEntity, bool>> filter);
 
         TEntity GetById(Expression<Func<TEntity,bool>> filter);
 

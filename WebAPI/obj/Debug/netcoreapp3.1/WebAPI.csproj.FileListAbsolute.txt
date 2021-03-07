@@ -143,3 +143,5 @@
 /Users/amorfati/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Castle.Core.dll
 /Users/amorfati/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Autofac.Extensions.DependencyInjection.dll
 /Users/amorfati/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/Users/amorfati/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/amorfati/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll

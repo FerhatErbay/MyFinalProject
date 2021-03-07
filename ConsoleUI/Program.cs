@@ -22,7 +22,7 @@ namespace ConsoleUI
 
         private static void ProductDetailDtoTest()
         {
-            ProductManager productManager = new ProductManager(new EfProductDal());
+            ProductManager productManager = new ProductManager(new EfProductDal(),new CategoryManager(new EfCategoryDal()));
 
             var result = productManager.GetProductDetails();
 
@@ -45,7 +45,7 @@ namespace ConsoleUI
 
         private static void ProductGetAllTest()
         {
-            ProductManager productManager = new ProductManager(new EfProductDal());
+            ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
 
             var result = productManager.GetAll();
 
@@ -71,16 +71,30 @@ namespace ConsoleUI
         private static void CategoryTest()
         {
             CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+            var result = categoryManager.GetAll();
+
             Console.WriteLine("Id ---- Category Name");
-            foreach (var category in categoryManager.GetAll())
+            if (result.Success)
             {
-                Console.WriteLine(category.CategoryID + " --- " + category.CategoryName);
+                foreach (var category in result.Entity)
+                {
+                    Console.WriteLine(category.CategoryID + " --- " + category.CategoryName);
+                }
+                Console.WriteLine("-***********-");
+                Console.WriteLine(result.Message);
+                Console.WriteLine("-***********-");
+            }
+            else
+            {
+                Console.WriteLine("-***********-");
+                Console.WriteLine(result.Message);
+                Console.WriteLine("-***********-");
             }
         }
 
         private static void InMemoryTest()
         {
-            ProductManager productManager = new ProductManager(new InMemoryProductDal());
+            ProductManager productManager = new ProductManager(new InMemoryProductDal(), new CategoryManager(new EfCategoryDal()));
 
             var result = productManager.GetAll();
 
@@ -103,7 +117,7 @@ namespace ConsoleUI
 
         private static void ProductTest()
         {
-            ProductManager productManager = new ProductManager(new EfProductDal());
+            ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
 
             var result = productManager.GetByUnitPrice(50, 100);
 
