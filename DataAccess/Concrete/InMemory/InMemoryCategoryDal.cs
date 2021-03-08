@@ -26,6 +26,11 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
+        public Category Get(Expression<Func<Category, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Category> GetAll(Expression<Func<Category, bool>> filter = null)
         {
             return categories;

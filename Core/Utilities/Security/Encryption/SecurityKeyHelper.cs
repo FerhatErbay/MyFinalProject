@@ -8,6 +8,9 @@ namespace Core.Utilities.Security.Encryption
     {
        public static SecurityKey CreateSecurityKey(string securityKey)
         {
+            //SecurityKey secrtyKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
+            //return secrtyKey;
+
             return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
         }
     }

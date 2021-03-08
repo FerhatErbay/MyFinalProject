@@ -24,6 +24,7 @@ namespace Business.Concrete
         {
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
+
             var user = new User
             {
                 Email = userForRegisterDto.Email,
@@ -40,6 +41,7 @@ namespace Business.Concrete
         public IDataResult<User> Login(UserForLoginDto userForLoginDto)
         {
             var userToCheck = _userService.GetByMail(userForLoginDto.Email);
+
             if (userToCheck == null)
             {
                 return new ErrorDataResult<User>(Messages.UserNotFound);
