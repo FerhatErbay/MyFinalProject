@@ -48,5 +48,9 @@ namespace Business.Constants
         public static string AuthorizationDenied = "Authorization denied.";
 
         public static string CategoryUpdated = "Category has been updated successfuly.";
+
+        public static string ProductUpdated = "Product updated successfully.";
+
+        public static string ProductDeleted = "Product deleted successfully.";
     }
 }

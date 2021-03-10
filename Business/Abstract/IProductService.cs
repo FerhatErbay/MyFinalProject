@@ -18,6 +18,8 @@ namespace Business.Abstract
 
         IResult Delete(Product product);
 
+        IResult AddTransactionalTest(Product product);
+
         IDataResult<List<Product>> GetAllByCategoryId(int categoryId);
 
         IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max);

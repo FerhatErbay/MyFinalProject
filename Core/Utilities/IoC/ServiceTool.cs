@@ -13,5 +13,5 @@ namespace Core.Utilities.IoC
             return services;
         }
     }
-
+    
 }
