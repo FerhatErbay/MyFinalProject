@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
             var result = _authService.CreateAccessToken(userToLogin.Entity);
             if (result.Success)
             {
-                return Ok(result.Entity);
+                return Ok(result);
             }
 
             return BadRequest(result.Message);
@@ -49,7 +49,7 @@ namespace WebAPI.Controllers
             var result = _authService.CreateAccessToken(registerResult.Entity);
             if (result.Success)
             {
-                return Ok(result.Entity);
+                return Ok(result);
             }
 
             return BadRequest(result.Message);

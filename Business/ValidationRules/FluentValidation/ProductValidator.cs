@@ -4,7 +4,7 @@ using FluentValidation;
 
 namespace Business.ValidationRules.FluentValidation
 {
-    public class ProductValidator : AbstractValidator<Product>
+    public class  ProductValidator : AbstractValidator<Product>
     {
         public ProductValidator()
         {
@@ -14,7 +14,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(p => p.UnitPrice).NotEmpty();
             RuleFor(p => p.UnitPrice).GreaterThan(0);
             RuleFor(p => p.UnitPrice).GreaterThanOrEqualTo(10).When(p => p.CategoryID == 2);
-            //RuleFor(p => p.ProductName).Must(StartWithA).WithMessage("Products must start with the letter 'A'.");
+            RuleFor(p => p.ProductName).Must(StartWithA).WithMessage("Products must start with the letter 'A'.");
 
         }
 

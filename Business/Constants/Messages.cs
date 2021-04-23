@@ -45,12 +45,22 @@ namespace Business.Constants
 
         public static string AccessTokenCreated = "Access token created.";
 
-        public static string AuthorizationDenied = "Authorization denied.";
+        public static string AuthorizationDenied = "Authorization denied";
 
-        public static string CategoryUpdated = "Category has been updated successfuly.";
+        public static string CategoryUpdated = "Category has been updated successfuly";
 
-        public static string ProductUpdated = "Product updated successfully.";
+        public static string ProductUpdated = "Product updated successfully";
 
-        public static string ProductDeleted = "Product deleted successfully.";
+        public static string ProductDeleted = "Product deleted successfully";
+
+        public static string CustomerAdded = "Customer added succuessfully";
+
+        public static string CustomerDeleted = "Customer deleted successfully";
+
+        public static string CustomerListed = "Customer listed successfully";
+
+        public static string CustomerFound ="Customer found";
+
+        public static string CustomerUpdated = "Customer updated";
     }
 }

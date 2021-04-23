@@ -1,0 +1,8 @@
+/Users/amorfati/Projects/MyFinalProject/Core/bin/Release/netstandard2.1/Core.deps.json
+/Users/amorfati/Projects/MyFinalProject/Core/bin/Release/netstandard2.1/Core.dll
+/Users/amorfati/Projects/MyFinalProject/Core/bin/Release/netstandard2.1/Core.pdb
+/Users/amorfati/Projects/MyFinalProject/Core/obj/Release/netstandard2.1/Core.AssemblyInfoInputs.cache
+/Users/amorfati/Projects/MyFinalProject/Core/obj/Release/netstandard2.1/Core.AssemblyInfo.cs
+/Users/amorfati/Projects/MyFinalProject/Core/obj/Release/netstandard2.1/Core.csproj.CoreCompileInputs.cache
+/Users/amorfati/Projects/MyFinalProject/Core/obj/Release/netstandard2.1/Core.dll
+/Users/amorfati/Projects/MyFinalProject/Core/obj/Release/netstandard2.1/Core.pdb

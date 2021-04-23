@@ -30,7 +30,7 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-
+        
         // AOP...
         [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
@@ -41,8 +41,8 @@ namespace Business.Concrete
 
             IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryID),
                 CheckIfProductNameExists(product.ProductName), CheckIfCategoryLimitExceeded());
-
-            if (result!=null)
+            
+            if (result != null)
             {
                 return result;
             }
@@ -65,7 +65,7 @@ namespace Business.Concrete
         [PerformanceAspect(5)]
         public IDataResult<List<Product>> GetAll()
         {
-            if (DateTime.Now.Hour == 02)
+            if (DateTime.Now.Hour == 06)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }

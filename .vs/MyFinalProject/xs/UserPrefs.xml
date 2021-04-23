@@ -1,53 +1,58 @@
 ﻿<Properties StartupConfiguration="{26C2A73C-20C7-465E-B526-145B8B3B8236}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/CustomersController.cs">
     <Files>
-      <File FileName="Core/Utilities/IoC/ICoreModule.cs" Line="8" Column="14" />
-      <File FileName="Core/DependencyResolvers/CoreModule.cs" Line="23" Column="5" />
-      <File FileName="WebAPI/Startup.cs" Line="70" Column="44" />
-      <File FileName="Core/Extensions/ServiceCollectionExtensions.cs" Line="17" Column="36" />
-      <File FileName="Core/Utilities/IoC/ServiceTool.cs" Line="10" Column="42" />
-      <File FileName="Business/BusinessAspects/Autofac/SecuredOperation.cs" Line="34" Column="56" />
-      <File FileName="Business/Constants/Messages.cs" Line="43" Column="1" />
-      <File FileName="Business/Concrete/ProductManager.cs" Line="60" Column="63" />
-      <File FileName="Core/CrossCuttingConcerns/Caching/ICacheManager.cs" Line="16" Column="46" />
-      <File FileName="Core/CrossCuttingConcerns/Caching/Microsoft/MemoryCacheManager.cs" Line="39" Column="1" />
-      <File FileName="Core/Aspects/Autofac/Caching/EmptyClass.cs" Line="35" Column="6" />
-      <File FileName="WebAPI/Controllers/ProductsController.cs" Line="67" Column="1" />
-      <File FileName="Core/Utilities/Results/DataResult.cs" Line="16" Column="1" />
-      <File FileName="Entities/Concrete/Product.cs" Line="8" Column="1" />
-      <File FileName="Core/Utilities/Results/Result.cs" Line="21" Column="1" />
-      <File FileName="Core/Aspects/Autofac/Caching/EmptyClass.cs" Line="10" Column="48" />
-      <File FileName="Business/Abstract/IProductService.cs" Line="21" Column="55" />
-      <File FileName="Core/Aspects/Autofac/Transaction/EmptyClass.cs" Line="25" Column="10" />
-      <File FileName="Core/Aspects/Autofac/Performance/EmptyClass.cs" Line="28" Column="10" />
+      <File FileName="Business/Concrete/AuthManager.cs" Line="23" Column="38" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
+      <File FileName="Business/Concrete/CategoryManager.cs" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="35" Column="37" />
+      <File FileName="WebAPI/Controllers/ProductsController.cs" />
+      <File FileName="Business/Abstract/IAuthService.cs" />
+      <File FileName="Business/Abstract/IProductService.cs" />
+      <File FileName="Core/Utilities/Results/SuccessDataResult.cs" />
+      <File FileName="Core/Utilities/Results/DataResult.cs" />
+      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" />
+      <File FileName="Core/Utilities/Business/BusinessRules.cs" />
+      <File FileName="Core/Utilities/Interceptors/MethodInterception.cs" />
+      <File FileName="Business/BusinessAspects/Autofac/SecuredOperation.cs" />
+      <File FileName="Business/Constants/Messages.cs" />
+      <File FileName="Core/Utilities/IoC/ServiceTool.cs" />
+      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCustomerDal.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/CustomersController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyFinalProject" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
+              <Node name="BusinessAspects" expanded="True">
+                <Node name="Autofac" expanded="True" />
+              </Node>
               <Node name="Concrete" expanded="True" />
               <Node name="Constants" expanded="True" />
             </Node>
             <Node name="Core" expanded="True">
-              <Node name="Aspects" expanded="True">
-                <Node name="Autofac" expanded="True" />
-              </Node>
-              <Node name="CrossCuttingConcerns" expanded="True" />
-              <Node name="DependencyResolvers" expanded="True" />
               <Node name="Extensions" expanded="True" />
               <Node name="Utilities" expanded="True">
+                <Node name="Business" expanded="True" />
+                <Node name="Interceptors" expanded="True" />
                 <Node name="IoC" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
             <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomersController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

@@ -1,0 +1,16 @@
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Business.deps.json
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Business.dll
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Business.pdb
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Core.dll
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/DataAccess.dll
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Entities.dll
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Entities.pdb
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/DataAccess.pdb
+/Users/amorfati/Projects/MyFinalProject/Business/bin/Release/netstandard2.1/Core.pdb
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.csprojAssemblyReference.cache
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.AssemblyInfoInputs.cache
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.AssemblyInfo.cs
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.csproj.CoreCompileInputs.cache
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.csproj.CopyComplete
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.dll
+/Users/amorfati/Projects/MyFinalProject/Business/obj/Release/netstandard2.1/Business.pdb
